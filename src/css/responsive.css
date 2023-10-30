@@ -1,0 +1,35 @@
+@media (max-width: 935px){
+    header{
+        flex-direction: column;
+    }
+    
+    header .logo-thebank{
+        padding: 50px 50px 0px 50px;
+    }
+
+    nav{
+        padding: 0;
+    }
+}
+
+@media (max-width: 715px){
+    nav{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav .menu{
+        flex-direction: column;
+        font-size: 40px;
+    }
+
+    nav .menu li{
+        width: 233px;
+        text-align: center;
+    }
+    
+    .btn-cadastro{
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+}
