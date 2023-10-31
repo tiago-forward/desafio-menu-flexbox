@@ -1,18 +1,20 @@
-@media (max-width: 935px){
+@media (max-width: 790px){
     header{
         flex-direction: column;
+        padding-bottom: 50px;
     }
     
     header .logo-thebank{
-        padding: 50px 50px 0px 50px;
+        padding: 50px;
     }
 
-    nav{
-        padding: 0;
-    }
 }
 
-@media (max-width: 715px){
+@media (max-width: 650px){
+    header .logo-thebank h1{
+        font-size: 4rem;
+    }
+    
     nav{
         flex-direction: column;
         padding: 0;
@@ -20,16 +22,15 @@
 
     nav .menu{
         flex-direction: column;
-        font-size: 40px;
+        font-size: 4rem;
+        align-items: center;
     }
 
     nav .menu li{
-        width: 233px;
-        text-align: center;
+        padding: 4rem;
     }
-    
+
     .btn-cadastro{
-        flex-direction: row;
-        margin-bottom: 50px;
+        padding: 3rem;
     }
 }
