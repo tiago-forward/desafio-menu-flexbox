@@ -28,37 +28,37 @@ header .logo-thebank h1{
     margin-left: 5px;
 }
 
-nav{
+header nav{
     display: flex;
     align-items: center;
     padding-right: 45px;
     font-size: 1.5rem;
 }
 
-nav .menu{
+header nav .menu{
     display: flex;
     justify-content: space-evenly;
     font-weight: 400;
 }
 
-nav .menu li a{
+header nav .menu li a{
     padding: 10px 5px;
     margin: 1.5rem;
     transition: 0.3s ease-in-out;
 }
 
-nav .menu li a:hover{
+header nav .menu li a:hover{
     cursor: pointer;
     color: white;
     background-color: #5BC241;
     border-radius: 5px;
 }
 
-nav .menu li a:active{
+header nav .menu li a:active{
     background-color: #304f27;
 }
 
-.btn-cadastro button{
+header .btn-cadastro button{
     background-color: #5BC241;
     border: none;
     cursor: pointer;
